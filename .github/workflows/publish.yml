@@ -11,4 +11,4 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
       - name: Notify pkg.dev of new version
-        run: curl "https://proxy.golang.org/github.com/stscoundrel/PROJECT-NAME/@v/${{ github.ref_name }}.info"
+        run: curl "https://proxy.golang.org/github.com/stscoundrel/starboard/@v/${{ github.ref_name }}.info"
