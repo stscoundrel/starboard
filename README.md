@@ -2,6 +2,8 @@
 
 List stars user has received in their Github repositories. A Golang library.
 
+Also available as an [API](https://github.com/stscoundrel/starboard-gin).
+
 ## Install
 
 `go get github.com/stscoundrel/starboard`
