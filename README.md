@@ -10,7 +10,7 @@ Also available as an [API](https://github.com/stscoundrel/starboard-gin).
 
 ## Usage
 
-Troubleman exposes a function for getting Github stars by username. The request goes through public search API, so no authentication is required.
+Starboard exposes a function for getting Github stars by username. The request goes through public search API, so no authentication is required.
 
 ```go
 package main
